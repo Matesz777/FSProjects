@@ -1,0 +1,13 @@
+.themeButton{
+    position: relative;
+    height: 50px;
+    width: 220px;
+    background-color: var(--button-bg);
+    border-radius: 34px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+[data-theme="light"] .themeButton:hover{
+    color: #e2b213;
+    border: 1px solid #e2b213;
+}

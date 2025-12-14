@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 20vh;
+}
+.buttons:hover{
+    color: #e2b213;
+    border: #e2b213;
+}
