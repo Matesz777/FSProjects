@@ -1,0 +1,61 @@
+.main-container{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 16px;
+}
+.board{
+    border-collapse: collapse;
+}
+.cell{
+    border: 1px solid #999;
+    padding: 0;   
+}
+.cell:nth-child(3),
+.cell:nth-child(6),
+.cell:nth-child(9){
+    border-right: 3px solid black;
+}
+.cell:nth-child(1){
+    border-left: 3px solid black;
+}
+.board tr:nth-child(3),
+.board tr:nth-child(6),
+.board tr:nth-child(9){
+    border-bottom: 3px solid black;
+}
+.board tr:nth-child(1){
+    border-top: 3px solid black;
+}
+input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor:cell;
+    color: black;
+}
+input:focus{
+    background: #78b1eb;
+    caret-color: transparent;
+}
+.same-row, .same-col, .same-box{
+    background: #bfd8fc;
+}
+.status{
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.green{
+    background-color: rgb(47, 255, 82);
+    transition: background-color 0.3s ease;
+}
+
